@@ -17,7 +17,7 @@ Demo:
 ![demo](https://github.com/yulongl/CarND-PID-Control-Project/blob/master/20180812_170648.gif)  
 
 Parameters:
-Kp = 0.12, Ki = 0.0018; Kd = 15.  
+Kp = 0.12, Ki = 0.0018, Kd = 15.  
   
 ### Describe how the final hyperparameters were chosen.  
 
@@ -30,7 +30,7 @@ It could be helpful to directly use the simulator instead of modeling the vehicl
 With manual tuning, I first tuned P with zero I and zero D. Then added D and finally a small amount of I to help with a faster response.  
 
 The final parameters are:  
-Kp = 0.12, Ki = 0.0018; Kd = 15.  
+Kp = 0.12, Ki = 0.0018, Kd = 15.  
 
 
 
