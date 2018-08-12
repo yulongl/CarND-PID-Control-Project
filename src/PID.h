@@ -17,6 +17,11 @@ public:
   double Ki;
   double Kd;
 
+  double pre_cte;
+  double throttle;
+
+  bool is_init;
+
   /*
   * Constructor
   */
@@ -41,6 +46,8 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
+  void Tuning();
 };
 
 #endif /* PID_H */
