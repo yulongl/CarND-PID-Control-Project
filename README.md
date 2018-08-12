@@ -23,7 +23,7 @@ Kp = 0.12, Ki = 0.0018; Kd = 15.
 
 Parameters were tuned manually.  
 
-The twiddle method taught in the lecture may not work well for this project. Because it's not easy to model the simulator vehicle as no additional information like vehicle dynamic. I also found that braking and accelaration affect the cornering maneuver even with the same steering angle.
+The twiddle method taught in the lecture may not work well for this project. Because it's not easy to model the simulator vehicle as no additional information like vehicle dynamic is given. I also found that braking and accelaration affect the cornering maneuver even with the same steering angle.
 
 It could be helpful to directly use the simulator instead of modeling the vehicle to do the twiddle tuning, but it would be very time consuming because the vehicle has to repeat the same session of the track to tune the parameters.  
 
